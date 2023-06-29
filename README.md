@@ -1,5 +1,5 @@
 # ConvertPdfFileToImageFiles
-Takes in a filestream and returns a stream containing a zipped file.
+Takes in a filestream and returns a stream containing a zip file.
 This zip file contains an image of each page in the PDF file.
 
 To deploy: RUN docker-compose
