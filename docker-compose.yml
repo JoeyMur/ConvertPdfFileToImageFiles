@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    convert-pdf-to-png:
+        container_name: convert_pdf_to_images
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        ports:
+            - 8081:8081
+        restart: always
